@@ -15,7 +15,8 @@ namespace WebApplication4.Controllers
         {
             new Person { FavoriteMovie = "Goldfinger", Name="Paul" },
             new Person { FavoriteMovie = "Boondock Saints", Name="Ryan" },
-            new Person {FavoriteMovie="Death Proof", Name="Uma" }
+            new Person {FavoriteMovie="Death Proof", Name="Uma" },
+            new Person { FavoriteMovie="Frozen", Name ="Jeff" }
         };
 
         [HttpGet]
